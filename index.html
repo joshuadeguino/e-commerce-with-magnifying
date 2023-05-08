@@ -12,8 +12,8 @@
 	<main>
 		<div class="container">
 			<form class="text-center py-4">
-				<input type="text" class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md" id="filterInput" placeholder="Search">       
-				<button id="search">Search</button> 
+				<input type="text" id="srcch" class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md" id="filterInput" placeholder="Search">       
+				<button class="srch" id="search">Search</button> 
 				<div class="filter-condition">
 					<span>Filter</span>
 					<select name="" id="select">
@@ -63,11 +63,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Mouse</strong>
-						<span>M650</span>
+						<strong id="producttype">Mouse</strong>
+						<span id="productname">M650</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$145</h4>
+					<h4 id="price">$145</h4>
 				</li>
 				<li data-category="" data-price="">
 					<picture>
@@ -95,11 +95,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Gaming Mouse</strong>
-						<span>MX MASTER 3S FOR MAC</span>
+						<strong id="producttype" >Gaming Mouse</strong>
+						<span id="productname">MX MASTER 3S FOR MAC</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$200</h4>
+					<h4 id="price">$200</h4>
 				</li>
 				<li data-category="" data-price="">
 					<picture>
@@ -127,11 +127,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Mouse pad</strong>
-						<span>G640</span>
+						<strong id="producttype">Mouse pad</strong>
+						<span id="productname">G640</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$135</h4>
+					<h4 id="price">$135</h4>
 				</li>
 				<li data-category="" data-price="">
 					<picture>
@@ -143,11 +143,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Mouse pad</strong>
-						<span>Logitech G740</span>
+						<strong id="producttype">Mouse pad</strong>
+						<span id="productname">Logitech G740</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$250</h4>
+					<h4 id="price">$250</h4>
 				</li>
 				<li data-category="" data-price="">
 					<picture>
@@ -159,11 +159,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Mouse pad</strong>
-						<span>STUDIO SERIES</span>
+						<strong id="producttype">Mouse pad</strong>
+						<span id="productname">STUDIO SERIES</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$260</h4>
+					<h4 id="price">$260</h4>
 				</li>
 				<li data-category="" data-price="">
 					<picture>
@@ -175,11 +175,11 @@
 							<span><i class="far fa-share-square"></i></span>
 							<span><i class="fas fa-shopping-cart"></i></span>
 						 </p>
-						<strong>Mouse pad</strong>
-						<span>Plain Mouse Pad</span>
+						<strong id="producttype">Mouse pad</strong>
+						<span id="productname">Plain Mouse Pad</span>
 						<small>Buy now</small>
 					</div>
-					<h4>$125</h4>
+					<h4 id="price">$125</h4>
 				</li>
 				
 			</ul>
@@ -190,3 +190,4 @@
 </html>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/magnifier.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
